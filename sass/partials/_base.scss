@@ -1,0 +1,39 @@
+//
+// ESTILOS BASICOS
+//
+
+.title {
+	font-family: $font-title;
+	font-size: 2rem;
+	color: $title-primary;
+}
+
+p {
+	font-family: $font-text;
+}
+
+a {
+	font-family: $font-text;
+	color: $text-primary;
+}
+
+.btn {
+	font-family: $font-text;
+	border: 2px solid;
+	padding: 12px 24px;
+	font-weight: bold;
+	background: #fff;
+	font-size: 1rem;
+}
+
+span {
+	color: #787878;
+	font-family: $font-text;
+	font-size: 1rem;
+}
+
+.title-post {
+	font-family: $font-title; 
+	font-size: 1.5rem;
+}
+

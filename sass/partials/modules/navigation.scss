@@ -1,0 +1,59 @@
+//
+// ESTILOS NAVEGACION
+//
+
+.btn-expand{
+	font-size: 1.25rem;
+	font-weight: bold;
+	padding: 5px 0px;
+	width: 100%;	
+	&:focus	{
+		background: #C6C6C6;
+	}
+}
+
+.nav{
+	transition: 0.4s;
+	height: 0px;
+	overflow: hidden;
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	.nav-item {
+	border-bottom: 1px solid;
+	font-size: 1.25rem;
+	font-weight: bold;
+	padding: 5px 0px;
+	text-align: center;
+	text-decoration: none;
+	max-width: 100%;
+		a {
+			text-decoration: none;
+		}
+	}
+
+}
+
+.expand-menu{
+	transition: 0.4s;
+	height: 160px;
+}
+
+@media (min-width: 600px) {
+	.btn-expand{
+		display: none;
+	}
+	.nav {
+		text-align: center;
+		height: auto;
+	}
+	.nav-item{
+		display: inline-block;
+		border: none;
+		width: auto;
+		margin: 0 10px;
+	}
+}
+
+

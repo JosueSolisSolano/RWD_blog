@@ -1,0 +1,44 @@
+//
+// ESTILOS LAYOUT
+//
+@media (min-width: 600px) {
+  .side-bar{
+  	float: right;
+    width: 24%;
+  }
+  .content{
+  	float: left;
+  	width: 74%;
+  }
+  .post{
+  	width: 49%;
+  	display: inline-block;
+  }
+}
+
+.social {
+	float: right;
+}
+
+.content {
+	max-width: 100%;
+}
+
+.side-bar {
+	max-width: 100%;
+}
+
+.post {
+	padding: 20px 0px;
+	text-align: center;
+	max-width: 100%;
+	img {
+		width: inherit;
+		max-width: 95%;
+		height: auto;
+	}
+}
+
+footer {
+	max-width: 100%;
+}
